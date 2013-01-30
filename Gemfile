@@ -6,7 +6,7 @@ gem 'rails', '3.2.9'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :development do
-gem 'sqlite3', '1.3.5'
+gem 'sqlite3'
 end
 
 # Gems used only for assets and not required
@@ -21,13 +21,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'rb-readline'
-
-gem 'jquery-rails', '2.0.0'
-
-group :production do
-	gem 'pg', '0.12.2'
-end
+gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
